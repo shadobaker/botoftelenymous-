@@ -1,0 +1,20 @@
+do
+
+function run(msg, matches)
+  return 'robot v.1'.. [[ 
+telenymous Version
+1.5
+Developer username
+@joker_admin_1
+end
+
+return {
+  description = "Shows bot version", 
+  usage = "!vtelenymous: Shows infernal robot version",
+  patterns = {
+    "^!vtelenymous$"
+  }, 
+  run = run 
+}
+
+end
